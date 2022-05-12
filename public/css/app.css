@@ -12174,7 +12174,8 @@ fieldset:disabled .btn {
 }
 
 main {
-  height: 400px;
+  height: calc(100vh - 85px);
+  overflow-y: auto;
 }
 
 div.container-fluid div.card,
@@ -12184,5 +12185,12 @@ div.container-lg div.card,
 div.container-xl div.card,
 div.container-xxl div.card {
   border: 2px solid black;
+  height: 200px;
+  width: 250px;
+}
+
+footer {
+  height: 40px;
+  background-color: lightblue;
 }
 
