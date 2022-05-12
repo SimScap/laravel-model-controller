@@ -1,2 +1,8 @@
 //
-@import "~bootstrap/scss/bootstrap"
+@import "~bootstrap/scss/bootstrap";
+
+div.container-fluid{
+    div.card{
+        border: 2px solid black;
+    }
+}

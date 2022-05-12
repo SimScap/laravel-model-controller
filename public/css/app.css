@@ -12173,3 +12173,16 @@ fieldset:disabled .btn {
   }
 }
 
+main {
+  height: 400px;
+}
+
+div.container-fluid div.card,
+div.container-sm div.card,
+div.container-md div.card,
+div.container-lg div.card,
+div.container-xl div.card,
+div.container-xxl div.card {
+  border: 2px solid black;
+}
+
